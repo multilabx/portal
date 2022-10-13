@@ -3,7 +3,7 @@ export default defineNuxtConfig({
     title: "MultiLabX",
     link: [
       {
-        href: "https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap&family=Silkscreen:wght@400;700&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700;800;900&display=swap&family=Silkscreen:wght@400;700&family=Chakra+Petch:wght@100;200;300;400;500;600;700;800;900&display=swap",
         rel: "stylesheet",
       },
       {

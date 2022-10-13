@@ -38,6 +38,7 @@ module.exports = {
     fontFamily: {
       kanit: ['"Kanit"', "sans-serif"],
       silkscreen: ['"Silkscreen"', "cursive"],
+      ChakraPetch: ['"Chakra Petch"', "sans-serif"],
     },
   },
   plugins: [],
