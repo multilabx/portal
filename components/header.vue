@@ -1,5 +1,5 @@
 <template>
-  <div class="opacity-80 pt-52">
+  <div class="opacity-80">
     <div class="grid sm:grid-cols-2 gap-3">
       <div>
         <img src="~/assets/images/logo.png" class="max-w-xs mx-auto w-full" />

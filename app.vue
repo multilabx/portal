@@ -1,7 +1,7 @@
 <template>
-  <div class="min-h-screen text-white">
+  <NuxtLayout>
     <Container>
-        <Header />
+      <Header />
     </Container>
-  </div>
+  </NuxtLayout>
 </template>

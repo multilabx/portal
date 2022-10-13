@@ -1,8 +1,8 @@
 <template>
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-    <div class="mx-auto max-w-3xl">
+    <div class="mx-auto max-w-3xl py-auto">
       <slot />
-      <div class="fixed z-10 left-0 right-0 spotlight opacity-100" />
+      <div class="fixed z-10 left-0 right-0 spotlight opacity-60" />
     </div>
   </div>
 </template>
