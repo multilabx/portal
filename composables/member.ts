@@ -28,11 +28,12 @@ export const useMember = () => {
     },
     {
       image:
-        "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/271914125_116138157613497_5665598314603198285_n.jpg?stp=dst-jpg_p480x480&_nc_cat=105&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeGjx8Hh8IrBgLRey9JU8OWtRxunqzBN2l1HG6erME3aXRJqnAZlgL4FEgfI5Kk_InzACXBFCWE6U0TR9olPdKR-&_nc_ohc=hBkjK7ra6vsAX8Sy76P&_nc_ht=scontent.fbkk17-1.fna&oh=00_AT_5Dl6vUFJ7Tp1B98Otcay-AA2-T098aY-SG_00HIVWKw&oe=634E2DEA",
-      nickName: "Kimbius",
-      description: "personnel",
-      skill: "Fullstack Develop",
+        "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/296842807_719315962442705_4173876293335934358_n.jpg?stp=dst-jpg_s480x480&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeHT_tJvHWqPYoJAUk4P8ohPvNDM7cHOU7C80Mztwc5TsNCFsNowhazNC0ysdyy0WaWr0MqBhPnEcGDzkZOZn55o&_nc_ohc=2gEbjZ_4VCwAX8p2QQQ&tn=DC-dcTH4wITef9jj&_nc_ht=scontent.fbkk17-1.fna&oh=00_AT8KOYsYgD6-VyxuOoRO_zzXvOGRbbyKKiTSPKFVo9vL-A&oe=634E67BE",
+      nickName: "NackZa",
+      description: "Sick my duck",
+      skill: "hackerman",
     },
+
     {
       image:
         "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/308474055_633556914948951_1025926348407840853_n.jpg?stp=dst-jpg_s480x480&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeGua7hWCYfTq8W7N5-eW8q69rGFPJKhm3b2sYU8kqGbdrte6xQcESrFq_AaWW-mduAwxjkArWNhnhcBcuQt4qid&_nc_ohc=c0mDZOO2-l4AX_1p7DD&_nc_ht=scontent.fbkk17-1.fna&oh=00_AT-m5PDJ1lNcDsCH_RGZnEnWpxyO3sQXYoHk4XTRd9P8LQ&oe=634D81EB",
@@ -55,17 +56,40 @@ export const useMember = () => {
       skill: "fullstack devlop",
     },
     {
-    image: "https://media.discordapp.net/attachments/943188689952063499/1030488269449875618/unknown.png?width=676&height=676",
+      image:
+        "https://media.discordapp.net/attachments/943188689952063499/1030488269449875618/unknown.png?width=676&height=676",
       nickName: "Feezial",
       description: "Mairu",
-      skill: "Front-End Develop",
+      skill: "Frontend Develop",
     },
     {
-    image: "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/300586376_180429111111223_6115043378716281364_n.jpg?stp=dst-jpg_p480x480&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeHDhaQOgKE1q-E5jJrquV9VCxiIBkCgdSkLGIgGQKB1KX4x2RVQdhurrHt9RLCpTkPj36DdLey2q_73c9Ezzcxl&_nc_ohc=4Q1l8XHOh1MAX8JhNE3&_nc_oc=AQmzQMB4ek0Os-GiYTldI4lKWQCsHVH-QHO31ueP1oDM8d8IHznJOlHC93mjI0nxMYk&_nc_ht=scontent.fbkk17-1.fna&oh=00_AT-gJxpuKTeSgDWV7TggvFxl8LESoEBK6mNNf7Yo5O9pFQ&oe=634F01EF",
+      image:
+        "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/300586376_180429111111223_6115043378716281364_n.jpg?stp=dst-jpg_p480x480&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeHDhaQOgKE1q-E5jJrquV9VCxiIBkCgdSkLGIgGQKB1KX4x2RVQdhurrHt9RLCpTkPj36DdLey2q_73c9Ezzcxl&_nc_ohc=4Q1l8XHOh1MAX8JhNE3&_nc_oc=AQmzQMB4ek0Os-GiYTldI4lKWQCsHVH-QHO31ueP1oDM8d8IHznJOlHC93mjI0nxMYk&_nc_ht=scontent.fbkk17-1.fna&oh=00_AT-gJxpuKTeSgDWV7TggvFxl8LESoEBK6mNNf7Yo5O9pFQ&oe=634F01EF",
       nickName: "safestabi",
       description: "Dek jura",
       skill: "math chemistry Physics",
-    }
+    },
+    {
+      image:
+        "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/271914125_116138157613497_5665598314603198285_n.jpg?stp=dst-jpg_p480x480&_nc_cat=105&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeGjx8Hh8IrBgLRey9JU8OWtRxunqzBN2l1HG6erME3aXRJqnAZlgL4FEgfI5Kk_InzACXBFCWE6U0TR9olPdKR-&_nc_ohc=hBkjK7ra6vsAX8Sy76P&_nc_ht=scontent.fbkk17-1.fna&oh=00_AT_5Dl6vUFJ7Tp1B98Otcay-AA2-T098aY-SG_00HIVWKw&oe=634E2DEA",
+      nickName: "Kimbius",
+      description: "deknoi",
+      skill: "Fullstack Develop",
+    },
+    {
+      image:
+        "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-6/261083783_2943469942581680_7877022239823708752_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=174925&_nc_eui2=AeH8SC-m0VEQRaMSxrhcxyNKQCwL-jiBLC5ALAv6OIEsLhj2gJyotpVQt4BjJz_VGf1lRSFjfo5k2Di0DY7DSn-V&_nc_ohc=1rhoHZMYJv0AX9LR7jb&_nc_ht=scontent.fbkk17-1.fna&oh=00_AT-o_edMttnehkphlw5Gz30dHQF2vmB4yBzuZIVlipfwkA&oe=634F4B77",
+      nickName: "MAMMOZ",
+      description: "deknoi",
+      skill: "Fullstack develop",
+    },
+    {
+      image:
+        "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/285213042_1211634606320547_2782561965451326821_n.jpg?stp=dst-jpg_p480x480&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeHk0eLYATqMHwtc9H3knQz3MPWYQW-yGPYw9ZhBb7IY9tWV1Zoa1JN_Dnwm5lFaAmTz8MG-4pQanmGRwvJjOcT4&_nc_ohc=0ttJHW4YCLsAX-xJmhf&_nc_ht=scontent.fbkk17-1.fna&oh=00_AT-GH3wlilBQYdnfn3qSZMBy1k302OE3XawzTaioy0WfdA&oe=634F6671",
+      nickName: "OhayoOniiChan",
+      description: "deknoi",
+      skill: "FirewallMan",
+    },
   ];
   return { myG };
 };
