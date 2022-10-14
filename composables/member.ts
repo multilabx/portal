@@ -59,6 +59,12 @@ export const useMember = () => {
       nickName: "Feezial",
       description: "Mairu",
       skill: "Front-End Develop",
+    },
+    {
+    image: "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/300586376_180429111111223_6115043378716281364_n.jpg?stp=dst-jpg_p480x480&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeHDhaQOgKE1q-E5jJrquV9VCxiIBkCgdSkLGIgGQKB1KX4x2RVQdhurrHt9RLCpTkPj36DdLey2q_73c9Ezzcxl&_nc_ohc=4Q1l8XHOh1MAX8JhNE3&_nc_oc=AQmzQMB4ek0Os-GiYTldI4lKWQCsHVH-QHO31ueP1oDM8d8IHznJOlHC93mjI0nxMYk&_nc_ht=scontent.fbkk17-1.fna&oh=00_AT-gJxpuKTeSgDWV7TggvFxl8LESoEBK6mNNf7Yo5O9pFQ&oe=634F01EF",
+      nickName: "safestabi",
+      description: "Dek jura",
+      skill: "math chemistry Physics",
     }
   ];
   return { myG };
