@@ -47,6 +47,13 @@ export const useMember = () => {
       description: "Superman",
       skill: "Boxing Fivem",
     },
+    {
+      image:
+        "https://scontent.fbkk4-1.fna.fbcdn.net/v/t39.30808-1/297942244_1096657731264642_2194899047935010365_n.jpg?stp=cp6_dst-jpg_p320x320&_nc_cat=107&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeGR679C9mDE7JZgpn6PAnGgnXloBcCwHAWdeWgFwLAcBQDBsgu2vEENHHllG62_oLXdvc4m1aa0EW79S2G5C6ip&_nc_ohc=KA5XXE7pnxcAX-Mf9QW&_nc_ht=scontent.fbkk4-1.fna&oh=00_AT8-pLM8oW-FfDQL-ZuQiIQqBJagXWO8dk3oRdSI4uLyZA&oe=634E916D",
+      nickName: "beeb",
+      description: "acting ceo",
+      skill: "fullstack devlop",
+    },
   ];
   return { myG };
 };
