@@ -54,6 +54,12 @@ export const useMember = () => {
       description: "acting ceo",
       skill: "fullstack devlop",
     },
+    {
+    image: "https://media.discordapp.net/attachments/943188689952063499/1030488269449875618/unknown.png?width=676&height=676",
+      nickName: "Feezial",
+      description: "Mairu",
+      skill: "Front-End Develop",
+    }
   ];
   return { myG };
 };
