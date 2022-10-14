@@ -2,7 +2,7 @@
   <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     <div class="mx-auto max-w-3xl py-auto">
       <slot />
-      <div class="fixed z-10 left-0 right-0 -bottom-64 sm:-bottom-[45vh] spotlight" />
+      <div class="fixed -z-10 left-0 right-0 -bottom-64 sm:-bottom-[45vh] spotlight" />
     </div>
   </div>
 </template>

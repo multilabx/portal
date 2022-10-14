@@ -1,30 +1,14 @@
 <script lang="ts" setup>
 import { Motion } from "motion/vue";
 import { spring } from "motion";
-
-const dscList = ["next generation", "A Engineering Team", "Software House"];
-
-const description = ref(dscList[0]);
-const tmp = ref(0);
-const polling = ref();
-
-onMounted(() => {
-  polling.value = setInterval(() => {
-    if (tmp.value > dscList.length - 1) tmp.value = 0;
-    description.value = dscList[tmp.value];
-    console.log(tmp.value);
-    tmp.value++;
-  }, 3000);
-});
-
-onUnmounted(() => {
-  clearInterval(polling.value);
-});
+import { ChevronDoubleDownIcon } from "@heroicons/vue/24/solid";
+import { Transition } from "vue";
+const { description } = useHeader();
 </script>
 <template>
-  <div class="opacity-80">
+  <div class="opacity-80 h-screen grid content-center">
     <ClientOnly>
-      <div class="grid sm:grid-cols-2 gap-3">
+      <div class="grid sm:grid-cols-2 gap-3 group">
         <div>
           <Motion
             :initial="{ opacity: 0, scale: 0 }"
@@ -43,8 +27,8 @@ onUnmounted(() => {
             :exit="{ opacity: 0, x: -50 }"
           >
             <img
-              src="~/assets/images/logo.png"
-              class="max-w-xs mx-auto w-full"
+              src="~/assets/images/logoNewGen.png"
+              class="max-w-xs mx-auto w-full group-hover:-rotate-12 transition-all ease-in-out"
             />
           </Motion>
         </div>
@@ -65,7 +49,11 @@ onUnmounted(() => {
             }"
             :exit="{ opacity: 0, x: -50 }"
           >
-            <h2 class="text-5xl font-bold">MultiLabX</h2>
+            <h2
+              class="text-5xl font-bold linear-wipe transition-all group-hover:scale-125"
+            >
+              MultiLabX
+            </h2>
             <Motion
               :key="description"
               :initial="{ opacity: 0, y: -50 }"
@@ -84,8 +72,23 @@ onUnmounted(() => {
           </Motion>
         </div>
       </div>
+      <Motion
+        :initial="{ opacity: 0, y: -50 }"
+        :animate="{
+          opacity: 1,
+          y: 0,
+          transition: {
+            delay: 3,
+          },
+        }"
+        :exit="{ opacity: 0, y: 50 }"
+      >
+        <div class="flex justify-center font-ChakraPetch space-x-2 relative">
+          <ChevronDoubleDownIcon
+            class="h-20 opacity-30 animate-bounce absolute -bottom-64"
+          />
+        </div>
+      </Motion>
     </ClientOnly>
-    <div class="flex justify-center font-ChakraPetch space-x-2 mt-5"></div>
   </div>
 </template>
-<script></script>

@@ -2,3 +2,28 @@ body {
   background: #000;
   font-family: 'Kanit', sans-serif !important;
 }
+.linear-wipe {
+  text-align: center;
+
+  background: linear-gradient(
+    to right,
+    rgb(187, 62, 255) 20%,
+    rgb(255, 73, 91) 40%,
+    rgb(255, 255, 0) 60%,
+    rgb(56, 156, 255) 80%
+  );
+  background-size: 200% auto;
+
+  color: #000;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 1s linear infinite;
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+}
