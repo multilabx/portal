@@ -37,8 +37,8 @@ export const useMember = () => {
       image:
         "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/308474055_633556914948951_1025926348407840853_n.jpg?stp=dst-jpg_s480x480&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeGua7hWCYfTq8W7N5-eW8q69rGFPJKhm3b2sYU8kqGbdrte6xQcESrFq_AaWW-mduAwxjkArWNhnhcBcuQt4qid&_nc_ohc=c0mDZOO2-l4AX_1p7DD&_nc_ht=scontent.fbkk17-1.fna&oh=00_AT-m5PDJ1lNcDsCH_RGZnEnWpxyO3sQXYoHk4XTRd9P8LQ&oe=634D81EB",
       nickName: "TeparitZ",
-      description: "Deknoi",
-      skill: "backend Develop",
+      description: "SmallDick BigHeart",
+      skill: "Fullstack Develop",
     },
     {
       image:
