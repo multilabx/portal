@@ -2,8 +2,8 @@
 import { CubeIcon } from "@heroicons/vue/24/solid";
 const imageList = [
   "https://media.discordapp.net/attachments/854765539398516786/1030767821287866398/2565-10-15_16.03.11.png?width=2358&height=1404",
+  "https://media.discordapp.net/attachments/938043441936490526/1030824012244324473/2565-10-15_19.46.23.png?width=2358&height=1403",
   "https://media.discordapp.net/attachments/938043441936490526/1030809728240058469/2565-10-15_18.49.42.png?width=2352&height=1403",
-  "https://media.discordapp.net/attachments/938043441936490526/1030809336831815750/2565-10-15_18.48.06.png?width=2363&height=1403",
 ];
 </script>
 <template>
@@ -14,7 +14,7 @@ const imageList = [
     <h3 class="font-silkscreen">
       We, write all kinds of applications. Contact us for more details.
     </h3>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-12 w-full">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-6 w-full">
       <div class="col-span-2 hidden md:block">
         <Serviceimage
           src="https://media.discordapp.net/attachments/943188689952063499/1030525020964913262/unknown.png?width=1293&height=676"
@@ -38,5 +38,6 @@ const imageList = [
         <Serviceimage :src="item" />
       </div>
     </div>
+    <Customer />
   </div>
 </template>
