@@ -4,6 +4,7 @@
       <Header />
       <Member />
       <Dev />
+      <Customer />
     </Container>
   </NuxtLayout>
 </template>
