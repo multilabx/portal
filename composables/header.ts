@@ -1,9 +1,20 @@
 export const useHeader = () => {
-  const dscList = ["next generation", "A Engineering Team", "Software House"];
+  const dscList = [
+    "next generation",
+    "A Engineering Team",
+    "Software House",
+    "We are EatCat Gang",
+  ];
 
   const description = ref(dscList[0]);
   const tmp = ref(0);
   const polling = ref();
+
+  const gotoDiv = (divId) => {
+    document.querySelector("#" + divId).scrollIntoView({
+      behavior: "smooth",
+    });
+  };
 
   onMounted(() => {
     polling.value = setInterval(() => {
@@ -16,5 +27,5 @@ export const useHeader = () => {
   onUnmounted(() => {
     clearInterval(polling.value);
   });
-  return { description };
+  return { description, gotoDiv };
 };

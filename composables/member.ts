@@ -9,7 +9,7 @@ export const useMember = () => {
       image:
         "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-6/289533777_720425255843997_845496258667553772_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeHrHgJTgKRZ6eJ35NJ961SpZ_mbrzQuyUhn-ZuvNC7JSLNxdN3usHktqgw2ecISkeplg7PaBowuaOv45CKEBXPl&_nc_ohc=5PQipj7Ay8cAX_Cr-hb&_nc_ht=scontent.fbkk17-1.fna&oh=00_AT9r-7kSZBtCkrfWbC0YHjDeawsjZfxNTqhEhdr63ZSupw&oe=634D7B8C",
       nickName: "BossNz",
-      description: "CEO / Founder",
+      description: "Co-Founder",
       skill: "devops engineer",
     },
     {
@@ -52,22 +52,8 @@ export const useMember = () => {
       image:
         "https://scontent.fbkk4-1.fna.fbcdn.net/v/t39.30808-1/297942244_1096657731264642_2194899047935010365_n.jpg?stp=cp6_dst-jpg_p320x320&_nc_cat=107&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeGR679C9mDE7JZgpn6PAnGgnXloBcCwHAWdeWgFwLAcBQDBsgu2vEENHHllG62_oLXdvc4m1aa0EW79S2G5C6ip&_nc_ohc=KA5XXE7pnxcAX-Mf9QW&_nc_ht=scontent.fbkk4-1.fna&oh=00_AT8-pLM8oW-FfDQL-ZuQiIQqBJagXWO8dk3oRdSI4uLyZA&oe=634E916D",
       nickName: "beeb",
-      description: "acting ceo",
+      description: "deknoi",
       skill: "fullstack devlop",
-    },
-    {
-      image:
-        "https://media.discordapp.net/attachments/943188689952063499/1030488269449875618/unknown.png?width=676&height=676",
-      nickName: "Feezial",
-      description: "Mairu",
-      skill: "Frontend Develop",
-    },
-    {
-      image:
-        "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/300586376_180429111111223_6115043378716281364_n.jpg?stp=dst-jpg_p480x480&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeHDhaQOgKE1q-E5jJrquV9VCxiIBkCgdSkLGIgGQKB1KX4x2RVQdhurrHt9RLCpTkPj36DdLey2q_73c9Ezzcxl&_nc_ohc=4Q1l8XHOh1MAX8JhNE3&_nc_oc=AQmzQMB4ek0Os-GiYTldI4lKWQCsHVH-QHO31ueP1oDM8d8IHznJOlHC93mjI0nxMYk&_nc_ht=scontent.fbkk17-1.fna&oh=00_AT-gJxpuKTeSgDWV7TggvFxl8LESoEBK6mNNf7Yo5O9pFQ&oe=634F01EF",
-      nickName: "safestabi",
-      description: "Dek jura",
-      skill: "math chemistry Physics",
     },
     {
       image:
@@ -85,10 +71,24 @@ export const useMember = () => {
     },
     {
       image:
+        "https://media.discordapp.net/attachments/943188689952063499/1030488269449875618/unknown.png?width=676&height=676",
+      nickName: "Feezial",
+      description: "deknoi",
+      skill: "Frontend Develop",
+    },
+    {
+      image:
+        "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/300586376_180429111111223_6115043378716281364_n.jpg?stp=dst-jpg_p480x480&_nc_cat=102&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeHDhaQOgKE1q-E5jJrquV9VCxiIBkCgdSkLGIgGQKB1KX4x2RVQdhurrHt9RLCpTkPj36DdLey2q_73c9Ezzcxl&_nc_ohc=4Q1l8XHOh1MAX8JhNE3&_nc_oc=AQmzQMB4ek0Os-GiYTldI4lKWQCsHVH-QHO31ueP1oDM8d8IHznJOlHC93mjI0nxMYk&_nc_ht=scontent.fbkk17-1.fna&oh=00_AT-gJxpuKTeSgDWV7TggvFxl8LESoEBK6mNNf7Yo5O9pFQ&oe=634F01EF",
+      nickName: "safestabi",
+      description: "deknoi",
+      skill: "Frontend Develop",
+    },
+    {
+      image:
         "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/285213042_1211634606320547_2782561965451326821_n.jpg?stp=dst-jpg_p480x480&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeHk0eLYATqMHwtc9H3knQz3MPWYQW-yGPYw9ZhBb7IY9tWV1Zoa1JN_Dnwm5lFaAmTz8MG-4pQanmGRwvJjOcT4&_nc_ohc=0ttJHW4YCLsAX-xJmhf&_nc_ht=scontent.fbkk17-1.fna&oh=00_AT-GH3wlilBQYdnfn3qSZMBy1k302OE3XawzTaioy0WfdA&oe=634F6671",
       nickName: "OhayoOniiChan",
       description: "deknoi",
-      skill: "FirewallMan",
+      skill: "Firewall Man",
     },
   ];
   return { myG };

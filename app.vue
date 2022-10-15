@@ -3,7 +3,7 @@
     <Container>
       <Header />
       <Member />
-      <Dev />
+      <Service />
     </Container>
   </NuxtLayout>
 </template>
