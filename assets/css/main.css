@@ -1,10 +1,8 @@
 body {
   background: #000;
-  font-family: 'Kanit', sans-serif !important;
+  font-family: "Kanit", sans-serif !important;
 }
 .linear-wipe {
-  text-align: center;
-
   background: linear-gradient(
     to right,
     rgb(187, 62, 255) 20%,
