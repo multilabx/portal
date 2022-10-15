@@ -4,6 +4,8 @@
     <main class="mb-auto">
       <slot />
     </main>
-    <footer class="mt-32 mb-12 font-silkscreen text-center opacity-30 text-xs">website by bossnz</footer>
+    <footer class="mt-32 pb-4 font-silkscreen text-center opacity-30 text-xs">
+      © 2023 MultiLabX, Inc. All rights reserved.
+    </footer>
   </div>
 </template>

@@ -74,7 +74,7 @@ const { description, gotoDiv } = useHeader();
             <h4 class="text-md font-light opacity-70 mt-8">
               new team, high quality.
             </h4>
-            <h4 class="text-sm font-light opacity-50">Coming soon.</h4>
+            <h4 class="text-sm font-light opacity-50">script kiddie.</h4>
           </Motion>
         </div>
       </div>

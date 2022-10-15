@@ -7,14 +7,14 @@ const imageList = [
 ];
 </script>
 <template>
-  <div class="text-center my-28">
+  <div class="text-center mt-28">
     <h1 class="text-3xl sm:text-4xl font-silkscreen font-semibold">
       <CubeIcon class="h-10 inline-block" /> OUR SERVICE.
     </h1>
     <h3 class="font-silkscreen">
       We, write all kinds of applications. Contact us for more details.
     </h3>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-16 w-full">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-12 w-full">
       <div class="col-span-2 hidden md:block">
         <Serviceimage
           src="https://media.discordapp.net/attachments/943188689952063499/1030525020964913262/unknown.png?width=1293&height=676"
