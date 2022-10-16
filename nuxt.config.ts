@@ -10,7 +10,7 @@ export default defineNuxtConfig({
       { name: 'theme-color', content: '#cc0000' },
       { name: 'og:title', content: 'MultiLabX' },
       { name: 'og:description', content: 'software house' },
-      { name: 'og:image', content: '/_nuxt/assets/images/logoNewGen.png' }
+      { name: 'og:image', content: 'https://media.discordapp.net/attachments/792350536199438357/1031250542506299512/logoNewGen.196934c3.png' }
     ],
     link: [
       {
