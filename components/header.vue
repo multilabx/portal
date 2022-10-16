@@ -74,7 +74,7 @@ const { description, gotoDiv } = useHeader();
             <h4 class="text-md font-light opacity-70 mt-8">
               new team, highest quality.
             </h4>
-            <a href="https://www.facebook.com/multilabx" target="_blank" class="text-sm font-light text-white/50 hover:text-rose-400">contact us</a>
+            <p class="text-sm font-light text-white/50">coming soon.</p>
           </Motion>
         </div>
       </div>

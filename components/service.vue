@@ -38,6 +38,28 @@ const imageList = [
         <Serviceimage :src="item" />
       </div>
     </div>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-6 w-full">
+      <div class="w-full my-auto text-center md:text-right">
+        <h2 class="font-semibold text-2xl sm:text-xl linear-wipe font-kanit">
+          ระบบป้องกัน DDOS
+        </h2>
+        <h1 class="font-semibold text-3xl sm:text-2xl font-kanit">
+          ที่ดีที่สุดไม่ต้องกลัวเว็บดับ
+        </h1>
+        <p class="text-white/80 text-sm mt-2">
+          เว็บเก่าคุณเคยมีปัญหารึไหม โดนยิงเว็บดับใช้งานไม่ได้เลย
+          ปัญหานี้จะหมดไปถ้ามาอยู่กับเรา ดูแลการป้องกัน DDOS โดย มืออาชีพ
+        </p>
+      </div>
+      <div class="col-span-2 hidden md:block">
+        <Serviceimage
+          src="https://media.discordapp.net/attachments/942069659459543051/1031234660266688583/unknown.png"
+        />
+      </div>
+      <div class="col-span-3 hidden md:block">
+        <Serviceimage src="https://media.discordapp.net/attachments/930057538601385994/1031196468884820019/unknown.png" />
+      </div>
+    </div>
     <Customer />
   </div>
 </template>

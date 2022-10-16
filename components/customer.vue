@@ -4,13 +4,14 @@ const customers = useCustomer();
 <template>
   <div class="text-center font-silkscreen">
     <div
-      class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 xl:grid-cols-8 gap-4 items-center"
+      class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 xl:grid-cols-7 gap-6 items-center"
     >
-      <div v-for="(customer, i) in customers">
+      <div v-for="(customer, i) in customers" :key="i">
         <img
           :src="customer.image"
-          alt=""
-          class="hover:grayscale-0 hover:scale-125 transition duration-500 grayscale"
+          :class="`hover:grayscale-0 hover:scale-125 transition duration-500 grayscale ${
+            i > 5 && 'hidden sm:block'
+          }`"
         />
       </div>
     </div>
