@@ -86,7 +86,7 @@ export const useMember = () => {
     {
       image:
         "https://scontent.fbkk17-1.fna.fbcdn.net/v/t39.30808-1/285213042_1211634606320547_2782561965451326821_n.jpg?stp=dst-jpg_p480x480&_nc_cat=109&ccb=1-7&_nc_sid=7206a8&_nc_eui2=AeHk0eLYATqMHwtc9H3knQz3MPWYQW-yGPYw9ZhBb7IY9tWV1Zoa1JN_Dnwm5lFaAmTz8MG-4pQanmGRwvJjOcT4&_nc_ohc=0ttJHW4YCLsAX-xJmhf&_nc_ht=scontent.fbkk17-1.fna&oh=00_AT-GH3wlilBQYdnfn3qSZMBy1k302OE3XawzTaioy0WfdA&oe=634F6671",
-      nickName: "OhayoOniiChan",
+      nickName: "OhayoOnii",
       description: "member",
       skill: "Fullstack Develop",
     },

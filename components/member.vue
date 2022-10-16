@@ -56,7 +56,7 @@ onMounted(() => {
           />
         </Motion>
       </div>
-      <h2 class="font-bold text-lg sm:text-xl mt-12">Special man</h2>
+      <h2 class="font-bold text-lg sm:text-xl mt-12">Special Helper</h2>
       <div id="gangs" class="grid grid-cols-2 sm:grid-cols-2 gap-2">
         <Motion
           v-for="(item, i) in Special"

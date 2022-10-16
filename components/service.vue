@@ -53,7 +53,7 @@ const imageList = [
       </div>
       <div class="col-span-2 hidden md:block">
         <Serviceimage
-          src="https://media.discordapp.net/attachments/942069659459543051/1031234660266688583/unknown.png"
+          src="https://media.discordapp.net/attachments/942069659459543051/1031235769194524802/unknown.png"
         />
       </div>
       <div class="col-span-3 hidden md:block">
