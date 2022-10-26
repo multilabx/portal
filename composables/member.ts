@@ -14,7 +14,7 @@ export const useMember = () => {
       },
       {
         image:
-          "https://cdn.discordapp.com/avatars/502056862674452481/abc19c0a32077b5beea10b0d331d0dac.webp?size=1024",
+          "https://cdn.discordapp.com/avatars/502056862674452481/5a712595f474ecdca4fd9141f0fe0e0c.webp?size=1024",
         nickName: "Zensos",
         description: "Co-Founder",
         skill: "Backend Develop",
