@@ -14,7 +14,7 @@ export const useMember = () => {
       },
       {
         image:
-          "https://cdn.discordapp.com/avatars/502056862674452481/5a712595f474ecdca4fd9141f0fe0e0c.webp?size=1024",
+          "https://cdn.discordapp.com/avatars/502056862674452481/5a712595f474ecdca4fd9141f0fe0e0c.png?size=1024",
         nickName: "Zensos",
         description: "Co-Founder",
         skill: "Backend Develop",
@@ -28,7 +28,7 @@ export const useMember = () => {
       },
       {
         image:
-          "https://cdn.discordapp.com/avatars/373412590136721408/1cefb3dcfcc37769a62865d8f14c968d.webp?size=1024",
+          "https://cdn.discordapp.com/avatars/373412590136721408/3e1217cbc7a79ac9e0d68e9d113f8ba0.png?size=1024",
         nickName: "NackZa",
         description: "Superman",
         skill: "hackerman",
@@ -78,7 +78,7 @@ export const useMember = () => {
       },
       {
         image:
-          "https://cdn.discordapp.com/avatars/787654855719387157/5a1cfb432572e7487faddcb39930105a.webp?size=1024",
+          "https://cdn.discordapp.com/avatars/809435994394722374/64f5a8843d9bdc9b9e144fff23d8d942.png?size=1024",
         nickName: "safestabi",
         description: "member",
         skill: "Frontend Develop",
@@ -99,7 +99,7 @@ export const useMember = () => {
   }[] = [
       {
         image:
-          "https://cdn.discordapp.com/avatars/439248672836943873/a_161fafa0e10d9a57f085e6700e97679e.gif?size=1024",
+          "https://cdn.discordapp.com/avatars/439248672836943873/ae85849b5195b2b199d325865e8cdc8b.png?size=1024",
         nickName: "DeeKit",
         description: "Special",
         skill: "Firewall Man",
