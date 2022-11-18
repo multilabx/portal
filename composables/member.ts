@@ -29,7 +29,7 @@ export const useMember = () => {
       {
         image:
           "https://cdn.discordapp.com/avatars/373412590136721408/3e1217cbc7a79ac9e0d68e9d113f8ba0.png?size=1024",
-        nickName: "NackZa",
+        nickName: "Nack",
         description: "Superman",
         skill: "hackerman",
       },
@@ -87,6 +87,34 @@ export const useMember = () => {
         image:
           "https://cdn.discordapp.com/avatars/930045306261864448/3ac1293446e5790dba50bc18bff5bbea.webp?size=1024",
         nickName: "OhayoOnii",
+        description: "member",
+        skill: "Fullstack Develop",
+      },
+      {
+        image:
+          "https://cdn.discordapp.com/attachments/959101976149364796/1040593183488344094/unknown.png",
+        nickName: "Paotung",
+        description: "member",
+        skill: "Fullstack Develop",
+      },
+      {
+        image:
+          "https://cdn.discordapp.com/avatars/606422912525926400/d4780a91f587136fa70e0125992f05c8.png?size=1024",
+        nickName: "Redz",
+        description: "member",
+        skill: "Fullstack Develop",
+      },
+      {
+        image:
+          "https://cdn.discordapp.com/avatars/955587690856849478/f21641bddad6d48aff53e6d9f2e07455.png?size=1024",
+        nickName: "Larina",
+        description: "member",
+        skill: " HackerMan",
+      },
+      {
+        image:
+          "https://cdn.discordapp.com/avatars/606422912525926400/d4780a91f587136fa70e0125992f05c8.png?size=1024",
+        nickName: "Redz",
         description: "member",
         skill: "Fullstack Develop",
       },
