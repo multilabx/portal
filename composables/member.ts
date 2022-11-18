@@ -110,14 +110,7 @@ export const useMember = () => {
         nickName: "Larina",
         description: "member",
         skill: " HackerMan",
-      },
-      {
-        image:
-          "https://cdn.discordapp.com/avatars/606422912525926400/d4780a91f587136fa70e0125992f05c8.png?size=1024",
-        nickName: "Redz",
-        description: "member",
-        skill: "Fullstack Develop",
-      },
+      }
     ];
   const Special: {
     image: string;
