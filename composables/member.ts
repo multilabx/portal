@@ -28,7 +28,7 @@ export const useMember = () => {
       },
       {
         image:
-          "https://cdn.discordapp.com/avatars/373412590136721408/3e1217cbc7a79ac9e0d68e9d113f8ba0.png?size=1024",
+          "https://cdn.discordapp.com/avatars/373412590136721408/0158781b482a75bf929df29e534dd245.webp?size=1024",
         nickName: "NackZa",
         description: "Superman",
         skill: "hackerman",
@@ -78,7 +78,7 @@ export const useMember = () => {
       },
       {
         image:
-          "https://cdn.discordapp.com/avatars/809435994394722374/64f5a8843d9bdc9b9e144fff23d8d942.png?size=1024",
+          "https://cdn.discordapp.com/avatars/809435994394722374/a08f634e16f4d7873a3a1c9165cd5328.webp?size=1024",
         nickName: "safestabi",
         description: "member",
         skill: "Frontend Develop",
