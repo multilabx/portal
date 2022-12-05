@@ -21,7 +21,7 @@ export const useMember = () => {
       },
       {
         image:
-          "https://cdn.discordapp.com/avatars/722467073762000966/36f838836eb638cc1c4efc701a28b1ce.webp?size=1024",
+          "https://cdn.discordapp.com/avatars/722467073762000966/4bd3e8fc3654711b1dbe0747dc8875f4.webp?size=1024",
         nickName: "CheLos",
         description: "Co-Founder",
         skill: "devops engineer",
